@@ -8,6 +8,8 @@ I have used this code to verify the functioning of tilt input from the Microsoft
 
 On running this Universal Windows app, you will see a window with a red coloured input area. Touching this square with the Surface Pen should display diagnostic information pertaining to the pen position / tilt etc.
 
+Note that on build, Visual Studio may open a settings UI. It requires you to select the 'Developer mode' radio button under 'For Developers > Use developer features'
+
 	using System;
 	using System.Collections.Generic;
 	using System.IO;
